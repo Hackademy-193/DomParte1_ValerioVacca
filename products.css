@@ -1,0 +1,25 @@
+#cardContainer{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card{
+    background-color: rgb(31, 31, 72);
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    color: whitesmoke;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    text-align:center;
+
+}
+
+.imgProduct{
+    width:300px;
+}
